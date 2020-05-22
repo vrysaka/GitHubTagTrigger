@@ -7,8 +7,8 @@ trigger:
   tags:
     include:
     - v1.*
-    exclude:
-    - v1.0
+    # exclude:
+    # - v1.0
 
 pool:
   vmImage: 'ubuntu-latest'
